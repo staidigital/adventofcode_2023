@@ -25,8 +25,8 @@ for elem in data:
             elif color == "blue" and int(num) > currentGameHighest["blue"]:
                 currentGameHighest["blue"] = int(num)
     power_sum += currentGameHighest["red"] * currentGameHighest["green"] * currentGameHighest["blue"]
-    
-    print(power_sum)
+
+print(power_sum)
 
 
 
