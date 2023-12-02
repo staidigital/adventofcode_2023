@@ -9,7 +9,6 @@ for elem in data:
     possible = True
     game = elem.split(":")
     handsInGame = game[1].split(";")
-    highestBlue, highestGreen, highestRed = 0, 0, 0
     currentGameHighest = {"red": 0, "green": 0, "blue": 0}
     for hand in handsInGame:
         cubes = hand.split(",")
